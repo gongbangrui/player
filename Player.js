@@ -173,7 +173,7 @@ var BadApplePlayerIsLoad = (typeof(BadApplePlayerIsLoad) !="undefined" ? BadAppl
 	'</div>'+
 	'<div id="BadApplePlayer_Ad_bar">'+
 	'	<div id="BadApplePlayer_Ad_Title">'+
-	'		<a href="http://bbs.qq-admin.cn/forum.php?mod=viewthread&tid=46" target="_blank">绚丽彩虹播放器赞助商广告</a>'+
+	'		<a href="https://www.gbrblog.tk/" target="_blank">Gbr Blog</a>'+
 	'	</div>'+
 	'</div>'+
 	'</div>';
@@ -232,7 +232,7 @@ var BadApplePlayerIsLoad = (typeof(BadApplePlayerIsLoad) !="undefined" ? BadAppl
 			console.warn('[BadApplePlayerBoot] 1.播放器代码的下面又重新加载了一遍JQuery,导致组件注册的Jquery函数被清空');
 			console.warn('[BadApplePlayerBoot] 解决办法：');
 			console.warn('[BadApplePlayerBoot] 1.尝试查看网页源代码，搜索"jquery"，查看是否有多个jquery被加载，如果有，请删除该jquery。');
-			console.warn('[BadApplePlayerBoot] 2.加入绚丽彩虹站长群，寻找技术帮助。');
+			
 			$.ajax({
 				url: BadApplePlayerDomain_Static+"BadApplePlayer/js/scrollbar.js",
 				dataType:"script",
